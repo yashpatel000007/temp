@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tconverter</title>
+    <link rel="stylesheet" href="tem.css">
+</head>
+<body class="body">
+    <nav class="navbar" id="navbar">
+        <div class="logo">Tconverter</div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle"/>
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+            <div class="back-button">
+            <button type="button" onclick="history.back()"><span></span>Back</button>
+        </div>
+        </div>
+        </ul>
+        
+    </nav>
+    <div class="container">
+        <div class="converter-colum">
+            <h1>Welcome To Tconverter</h1>
+            <br/>
+            <form>
+            <di class="col">
+                <label>Fahrenheit</label>
+                <input type="number" id="fahrenheit">
+                <div class="col">
+                    <label>Celsius</label>
+                    <input type="number" id="celsius">
+                    <div class="col">
+                        <label>Kelvin</label>
+                        <input type="number" id="kelvin">
+                    </div>
+                </div>
+                <br/>
+                <input type="reset" value="Reset" style="background-color: rebeccapurple; color: white; font-size: 15px; cursor: pointer;" />
+            </form>
+            </div>
+        </div>
+    </div>
+    <script src="tem.js"></script>
+</body>
+</html>
